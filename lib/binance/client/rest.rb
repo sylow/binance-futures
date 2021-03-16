@@ -11,7 +11,7 @@ module Binance
     class REST
       BASE_URL = 'https://api.binance.com'.freeze
 
-      def initialize(api_key: '', secret_key: '',
+      def initialize(api_key: ENV['BINANCE_API_KEY'], secret_key: ENV['BINANCE_SECRET_KEY'],
                      adapter: Faraday.default_adapter)
         @clients = {}
         @clients[:public]   = public_client adapter
