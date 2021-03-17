@@ -20,7 +20,7 @@ module Binance
         test_order:       'v3/order/test',
         open_orders:      'v3/openOrders',
         all_orders:       'v3/allOrders',
-        oco:              'v3/oco',
+        oco:              'v3/order/oco',
         account:          'v3/account',
         my_trades:        'v3/myTrades',
         user_data_stream: 'v1/userDataStream',
