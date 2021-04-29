@@ -9,7 +9,7 @@ require_relative 'rest/methods'
 module Binance
   module Client
     class REST
-      BASE_URL = 'https://api.binance.com'.freeze
+      BASE_URL = 'https://fapi.binance.com'.freeze
 
       def initialize(api_key: ENV['BINANCE_API_KEY'], secret_key: ENV['BINANCE_SECRET_KEY'],
                      adapter: Faraday.default_adapter)

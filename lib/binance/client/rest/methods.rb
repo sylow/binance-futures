@@ -60,16 +60,9 @@ module Binance
         { name: :all_orders, client: :signed,
           action: :get, endpoint: :all_orders },
 
-        # #create_oco_order!
-        { name: :create_oco_order!, client: :signed,
-          action: :post, endpoint: :oco },
-
-        # #account_info
-        { name: :account_info, client: :signed,
+        # #account
+        { name: :account, client: :signed,
           action: :get, endpoint: :account },
-        # #my_trades
-        { name: :my_trades, client: :signed,
-          action: :get, endpoint: :my_trades },
         # #listen_key
         { name: :listen_key, client: :verified,
           action: :post, endpoint: :user_data_stream },
