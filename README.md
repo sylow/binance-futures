@@ -13,7 +13,7 @@ We are now at 1.0 and there are breaking changes, mainly with some method names 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'binance'
+gem 'binance-futures'
 ```
 
 And then execute:
@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install binance
+    $ gem install binance-futures
     
 ## Features
 
