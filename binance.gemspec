@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'binance/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'binance-futures'
+  spec.name          = 'binance'
   spec.version       = Binance::VERSION
   spec.authors       = ['Charles Ray Shisler III']
   spec.email         = ['charles@cray.io']
